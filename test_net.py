@@ -16,10 +16,10 @@ if naaji == 1:
 
 if naaji == 2:
     try:
-        os.system('git clone https://github.com/hosein-naaji/naaji-bobm')
+        os.system('git clone https://github.com/naajy/naaji_bomber')
         os.system('cd naaji-bobm')
     except:
-        os.system('cd | cd naaji-bobm')
+        os.system('cd | cd naaji_bomber')
     os.system('pkg install python')
     os.system('pkg install git')
     os.system('python naajibom.py')
